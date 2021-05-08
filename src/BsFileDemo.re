@@ -56,6 +56,8 @@ let make = _ => {
     <button onClick={e => upload(e)}> {"Upload" |> str} </button>
     Variadic.make
     <Root />
-    // <RootSpreadDoesntWork />
+    <ContactForm />
+    <MozillaForm />
+    <HebrewForm />
   </div>;
 };

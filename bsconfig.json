@@ -16,7 +16,7 @@
     }
   ],
   "suffix": ".bs.js",
-  "bs-dependencies": [ "bs-fetch","reason-react" ],
+  "bs-dependencies": [ "bs-fetch","reason-react","bs-webapi" ],
   "warnings": {},
   "namespace": false
 }
