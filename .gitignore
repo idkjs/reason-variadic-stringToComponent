@@ -1,0 +1,16 @@
+# Dependencies
+/node_modules
+
+# Build folders
+
+*.bs.js
+dist
+
+# Misc
+.DS_Store
+.merlin
+.bsb.lock
+npm-debug.log
+
+pnpm-lock.yaml
+lib/

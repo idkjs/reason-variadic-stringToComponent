@@ -1,0 +1,22 @@
+{
+  "name": "reason-variadic-stringToComponent",
+  "version": "0.1.0",
+  "reason": { "react-jsx": 3 },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "es6"
+    },
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [ "bs-fetch","reason-react" ],
+  "warnings": {},
+  "namespace": false
+}
