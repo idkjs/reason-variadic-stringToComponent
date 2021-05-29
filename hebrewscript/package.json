@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
+    "start": "BS_WATCH_CLEAR=true bsb -make-world -w",
+    "serve": "webpack serve",
     "clean": "bsb -clean-world"
   },
   "keywords": [
@@ -12,8 +13,14 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^8.2.0",
-    "cssnano": "^4.1.10"
+    "bs-platform": "^9.0.2",
+    "css-loader": "^5.2.4",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "bs-webapi": "^0.19.1"
