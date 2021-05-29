@@ -1,5 +1,11 @@
 # HebrewScript
+## Running
 
+```sh
+yarn install
+yarn start
+yarn serve
+```
 ## Get hebrew text from latin characters
 
 An easy way to use your latin keyboard to type in hebrew script.
